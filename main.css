@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.menu{
+    display: none;
+}
+.nav-bar{
+    background:transparent;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.logo img{
+    height: 50px;
+    display: flex;
+    margin-right: 1rem;
+    margin-top: -5px;
+}
+.nav-bar ul{
+   
+    float: right;
+}
+.nav-bar ul li{
+    display: inline-block;
+    margin-right: 1rem;
+   
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.nav-bar ul li a:hover{
+    text-decoration: none;
+    color: #4834d4;
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+
+
+/* checking nav bar */
+.nav-left{
+    padding-left: 2rem;
+}
+.nav-right{
+    display: flex;
+}
+/*navbar*/
+#menu-bar{
+    width: 50px;
+    height: 10px;
+    margin: 10px 10px 10px 20px;
+    /* position:fixed; */
+    cursor: pointer;
+    z-index: 1;
+}
+.hamburger{
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    background: #191b1d;
+    color: #fff;
+    height: auto;
+}
+  
+.bar{
+    background:orange;
+    border-radius: 10%;
+    transition: .4s;
+}
+#bar1{
+    width:40px;
+    height: 10px;
+    transform: translateY(-4px);
+}
+#bar2{
+    width: 40px;
+    height: 10px;
+}
+#bar3{
+    width: 40px;
+    height: 10px;
+    transform: translateY(4px);
+}
+.change .bar{
+    background: orange;
+}
+.change #bar1{
+    transform: translateY(6px);
+    rotate: z(45deg);
+}
+.change #bar3{
+    transform: translateY(-15px);
+    rotate: z(-45deg);
+}
+.change #bar2{
+    opacity: 0;
+}
+.nav li a{
+    font-size: 20px;
+    text-transform:uppercase ;
+}
+.nav li a:hover{
+    color: #fff;
+    background: orange;
+    padding-left: 10px;
+}
+.nav li{
+    margin: 20px 10px 10px 20px;
+    padding-top: 10px;
+    list-style-type:none;
+}
+.nav{
+    display: none;
+    
+}
+.change-btn{
+    display: block;
+}
+.nav-right{
+	float: right;
+    text-align: center;
+	margin-right: 40px;
+}
+.nav-right .Register-btn{
+  
+    width: 170px;
+    height: 50px;
+    background-color:#c7ecee;
+    color: #686de0;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 50px;
+    opacity: 0.9;
+}
+.nav-right .Register-btn:hover{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(12, 12, 235);
+    color:#fff ;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 50px;
+    transition: all ease 0.4s;
+}
+
+
+.col{
+    padding-top: 2rem;
+    width: 100vw;
+    height: auto;
+    margin: auto;
+    display: flex; 
+    justify-content: space-around;
+}
+.col .left h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.callButton{
+    margin-top: 2rem;
+    width: 170px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(52, 52, 221);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 50px;
+    opacity: 0.9;
+}
+.callButton:hover{
+    width: 170px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    color: rgb(12, 12, 235);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 50px;
+    transition: all ease 0.4s;
+}
+
+.Trusted_S{
+    background-color: rgba(139, 134, 135, 0.178);
+}
+.trusted_C h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: bold;
+
+}
+.recent-carousel-cell img{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin-top: 3rem;             
+    margin-bottom: 3rem;
+    margin-right: 7rem;
+} 
+.carousel-cell img{
+    position: relative;
+    width: 10rem;
+    height: 90px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 7rem;
+}
+.Flagship{
+    text-align: center;
+    justify-content: center;
+    margin: 3rem;
+    margin-bottom: 1rem;
+}
+.Flagship h1{
+    font-weight: bold;
+}
+.story h2{
+    
+    padding: 10px ;
+    text-align: center;
+    color: #000;
+    margin-top: 5rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+.story p{
+    color: #000;
+    font-size:23px;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+span{
+    color: rgb(216, 8, 8);
+    font-size:25px;
+}
+.Campaign .right .image{
+    width: 500px;
+}
+.Campaign h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.IRM .left img{
+width: 400px;
+height: 450px;
+}
+.AUTOMATED h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.AUTOMATED .right img{
+    width: 500px;
+    height: 450px;
+}
+.Booking .right .image-Booking{
+    width: 550px;
+}
+.multicolour{
+    height: auto;
+    background: linear-gradient(-45deg,rgb(129, 14, 110),rgb(0, 153, 255));
+}
+
+.multicolour h2{
+    text-align: center;
+    color: #000;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+/* .map{
+    width: 100vw;
+} */
+.map h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 2rem;
+    font-weight: bold;   
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #000;
+  }
+.wrapper .box{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+.services{
+    text-align: center;
+    justify-content: center;
+    margin: 3rem;
+    margin-bottom: 1rem;
+}
+.services h1{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+
+}
+.services h3{
+    font-size: 25px;
+    margin-bottom: 2rem;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+.mike {
+    background: rgb(177, 202, 212);
+    height: auto;
+    width: 100vw;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+.mike span{
+    color: rgb(55, 200, 236);
+    font-size: 40px;
+    font-weight: bold;
+}
+.AUTO{
+    background: #d6e3f0;
+    height: auto;
+    width: 100vw;
+    align-items: left;
+    padding-bottom: 2rem;
+}
+.AUTO h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.Recent{
+    background: #fff;
+    margin-top: 2rem;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    font-size: 50px;
+    color: #6ec1e4;
+    font-weight: 700;
+}
+.Recent h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #11658C;
+}
+.Recent.card-style{
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 5px rgba(0,0,0,0.2) ;
+}
+.Recent .card-style:hover{
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.2) ;
+    border-radius: 3rem;
+}
+
+.trusted_C h1{
+padding-top: 2rem;
+text-align: center;
+}
+.Featured{
+    background-color: rgba(139, 134, 135, 0.178);
+}
+.Booking{
+    background: rgb(46, 120, 231);
+    padding-bottom: 2rem;
+}
+
+.RegisterNow{
+    margin-top: 2rem;
+    width: 170px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    color: rgb(12, 12, 235);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 50px;
+    opacity: 0.9;
+}
+.RegisterNow:hover{
+    width: 170px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(12, 12, 235);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 50px;
+    transition: all ease 0.4s;
+}
+.footer{
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    padding-top: 2rem;  
+    background: #191b1d;
+    color: #fff;
+    text-align:left;
+    height: auto;
+    padding-bottom: 2rem;  
+    padding-left: 2rem;
+}
+.footer a{
+    color: #676b6e;
+    text-decoration: none;
+}
+.lowerfotter{
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    padding-top: 2rem;  
+    background: #191b1d;
+    color: #fff;
+    text-align:left;
+    height: auto;
+    padding-bottom: 2rem;  
+    padding-left: 2rem;
+}
+.container{
+    background: #fff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 60px;
+    color: aquamarine;
+    margin-top: 3rem;
+    font-weight: bold;
+}
+.img-text{
+    width: 100%;
+    height: auto;
+    display:block;
+    text-align: left;
+    padding-left: 1rem;
+    text-decoration: none;
+   padding-bottom: 1rem;
+   padding-right: 1rem;
+    background:rgb(136, 133, 133); 
+    color: #262626;
+    border-radius: 15px;
+}
+.img-text p{
+    font-size: 14px;
+    color: #333435;
+}
+.img-text h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+.img-text h3{
+    margin-top: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+    padding-bottom: 1rem;
+}
+.img-text h3:hover{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #6ec1e4
+
+}
+.img-text a:hover{
+    text-decoration: none;
+}
+.single-box{
+    position: relative;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.single-box .img-text a:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 90%;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    transition: all 0.5s linear;
+}
+.single-box .img-text a:hover:before{
+    width: 100%;
+    background-color: #b2bec3;
+}
+
+.box{
+    margin: auto;
+}
+
+
+
+
+/* media for mobile max(768px) */
+@media  (max-width:768px) {
+    .nav-bar{
+        border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    }
+    .menu{
+        display: block;
+    }
+    .nav-bar .menu-list{
+        display: none;
+    }
+    .nav-right .Register-btn{
+        display: none;
+    }
+    .col{
+        display:block;
+    }
+    .Recent .img{
+        width: 300px;
+        height: 350px;
+    }
+    .recent-cardstyle{
+        height: auto;
+        margin: auto;
+        width: 300px;
+    }
+    .recent-card{
+        width: auto;
+        height: 350px;
+    }
+    
+  
+    .leade.right img{
+        width: 350px;
+        align-items: center;
+    }
+    .left h2, p, button{
+        text-align: center;
+    }
+    .Flagship .middle img{
+        margin-top: 2rem;
+    }
+    .Flagship .right img{
+        margin-top: 2rem;
+    }
+    .story p{
+        font-size: 20px;
+    }
+    .Campaign h3{
+        text-align: center;
+    }
+    .Campaign .right img {
+       align-items: center;
+        width: 550px;
+        height: 450px;
+    }
+    .IRM .left img{
+       align-items: center;
+        width: 550px;
+        height: 450px;
+    }
+    .IRM .right h2, h3, p{
+        text-align: center;
+    }
+    .AUTOMATED .right img{
+        text-align:center;
+        width: 550px;
+        height: 450px;
+        
+    }
+ 
+    .services .middle .img{
+        margin-top: 3rem;
+    }
+    .services .last .img{
+        margin-top: 3rem;
+    }
+    .services .middle img{
+        margin-top: 2rem;
+    }
+    .services .last img{
+        margin-top: 2rem;
+    }
+    .AUTO{
+        background: #d6e3f0;
+        height: auto;
+        width: 100vw;
+        align-items: center;
+    }
+    .AUTO h1{
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .AUTO .second h1{
+        margin-top: 2rem;
+    }
+    .AUTO .third h1{
+        margin-top: 2rem;
+    }
+    .AUTO .fourth h1{
+        margin-top: 2rem;
+    }
+    .AUTO .fourth p{
+        padding-bottom: 2rem;
+    }
+    .Booking .left .RegisterNow{
+        text-align: center;
+        align-items: center;
+    }
+    .Booking .right .img{
+        text-align:center;
+        width: 550px;
+        height: 450px;
+    }
+    .footer h4{
+        text-align: center;
+    }
+    .footer .second h4{
+        margin-top: 2rem;
+    }
+    .footer .third h4{
+        margin-top: 2rem;
+    }
+    .footer .fourth h4{
+        margin-top: 2rem;
+    }
+    .footer .first img{
+        text-align: center;
+    }
+    
+    
+  
+}
+
+
+
