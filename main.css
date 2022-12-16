@@ -575,12 +575,12 @@ text-align: center;
     }
     .Campaign .right img {
        align-items: center;
-        width: 550px;
+        width: 350px;
         height: 450px;
     }
     .IRM .left img{
        align-items: center;
-        width: 550px;
+        width: 350px;
         height: 450px;
     }
     .IRM .right h2, h3, p{
@@ -588,7 +588,7 @@ text-align: center;
     }
     .AUTOMATED .right img{
         text-align:center;
-        width: 550px;
+        width: 350px;
         height: 450px;
         
     }
