@@ -552,7 +552,9 @@ text-align: center;
         width: auto;
         height: 350px;
     }
-    
+    .header .right .mobile{
+	width: 350px;
+	}	    
   
     .leade.right img{
         width: 350px;
