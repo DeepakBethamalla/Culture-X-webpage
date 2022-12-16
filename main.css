@@ -637,6 +637,9 @@ text-align: center;
         width: 550px;
         height: 450px;
     }
+    .map .image-map{
+	width:350px;
+     }
     .footer h4{
         text-align: center;
     }
@@ -651,6 +654,7 @@ text-align: center;
     }
     .footer .first img{
         text-align: center;
+	width:350;
     }
     
     
